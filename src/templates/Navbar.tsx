@@ -44,7 +44,7 @@ export const Navbar = () => {
         </li>
 
         <li>
-        <Link href="mailto:contact@sitemapalert.com">{t('contact')}</Link>
+          <Link href="mailto:contact@sitemapalert.com">{t('contact')}</Link>
         </li>
       </CenteredMenu>
     </Section>
