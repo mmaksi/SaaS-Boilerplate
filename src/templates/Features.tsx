@@ -13,6 +13,7 @@ export const Features = () => {
         subtitle={t('section_subtitle')}
         title={t('section_title')}
         description={t('section_description')}
+        id="features"
       >
         <div className="grid grid-cols-1 gap-x-3 gap-y-8 md:grid-cols-3">
           <FeatureCard

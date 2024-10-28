@@ -66,11 +66,10 @@
     "button_text": "Mettez une étoile sur GitHub"
   },
   "Footer": {
-    "product": "Produit",
-    "docs": "Docs",
-    "blog": "Blog",
-    "community": "Communauté",
-    "company": "Entreprise",
+    "features": "Features",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "contact": "Contact",
     "terms_of_service": "Conditions d'utilisation",
     "privacy_policy": "Politique de confidentialité",
     "designed_by": "Designé by <author></author>."

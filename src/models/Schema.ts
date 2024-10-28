@@ -17,6 +17,12 @@ import {
 // The migration is automatically applied during the next database interaction,
 // so there's no need to run it manually or restart the Next.js server.
 
+export const sitemapSchema = pgTable('sitemap', {
+  userId: text('user_id').primaryKey(),
+  trackedWebsites: text('tracked_websites').array().notNull(),
+  createdAt: timestamp('created_at', { mode: 'date' }).defaultNow().notNull(),
+});
+
 export const organizationSchema = pgTable(
   'organization',
   {

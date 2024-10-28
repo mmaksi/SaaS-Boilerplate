@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 
-import { LocaleSwitcher } from '@/components/LocaleSwitcher';
 import { buttonVariants } from '@/components/ui/buttonVariants';
 import { CenteredMenu } from '@/features/landing/CenteredMenu';
 import { Section } from '@/features/landing/Section';
@@ -19,7 +18,7 @@ export const Navbar = () => {
           <>
             {/* PRO: Dark mode toggle button */}
             <li>
-              <LocaleSwitcher />
+              {/* <LocaleSwitcher /> */}
             </li>
             <li className="ml-1 mr-2.5">
               <Link href="/sign-in">{t('sign_in')}</Link>
@@ -33,23 +32,19 @@ export const Navbar = () => {
         )}
       >
         <li>
-          <Link href="/sign-up">{t('product')}</Link>
+          <Link href="/#features">{t('features')}</Link>
         </li>
 
         <li>
-          <Link href="/sign-up">{t('docs')}</Link>
+          <Link href="/#pricing">{t('pricing')}</Link>
         </li>
 
         <li>
-          <Link href="/sign-up">{t('blog')}</Link>
+          <Link href="/#faq">{t('faq')}</Link>
         </li>
 
         <li>
-          <Link href="/sign-up">{t('community')}</Link>
-        </li>
-
-        <li>
-          <Link href="/sign-up">{t('company')}</Link>
+        <Link href="mailto:contact@sitemapalert.com">{t('contact')}</Link>
         </li>
       </CenteredMenu>
     </Section>

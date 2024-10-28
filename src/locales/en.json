@@ -6,11 +6,10 @@
   "Navbar": {
     "sign_in": "Sign In",
     "sign_up": "Sign Up",
-    "product": "Product",
-    "docs": "Docs",
-    "blog": "Blog",
-    "community": "Community",
-    "company": "Company"
+    "features": "Features",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "contact": "Contact"
   },
   "Hero": {
     "follow_twitter": "Follow @Ixartz on Twitter",
@@ -66,11 +65,10 @@
     "button_text": "Star on GitHub"
   },
   "Footer": {
-    "product": "Product",
-    "docs": "Docs",
-    "blog": "Blog",
-    "community": "Community",
-    "company": "Company",
+    "features": "Features",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "contact": "Contact",
     "terms_of_service": "Terms Of Service",
     "privacy_policy": "Privacy Policy",
     "designed_by": "Designed by <author></author>."
@@ -90,6 +88,7 @@
     "home": "Home",
     "todos": "Todos",
     "members": "Members",
+    "sitemap_monitor": "Sitemap Monitor",
     "billing": "Billing",
     "settings": "Settings"
   },
